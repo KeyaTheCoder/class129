@@ -1,0 +1,40 @@
+body
+{
+    background-color:lavender;
+}
+
+h1{
+
+    color:rgb(250, 104, 128);
+    background-color:rgb(241, 209, 128);
+    
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px soil white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {bok-shadow: 1px 1px 38px lightpink;}
+    to {box-shadow: 1px 1px 38px rgb(241, 209, 128)}
+}
+
+
+p
+{
+    padding-top:10px;
+    font-size:25px;
+
+}
